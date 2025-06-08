@@ -8,7 +8,7 @@
 
 Для запуска проекта и установки библиотек необходимо выполнить следующие команды:
 
-```python
+```bash
 git clone https://github.com/Alexdemenev/mle-project-sprint-2-v001.git
 cd mle-project-sprint-2-v001
 pip install -r requirements.txt 
@@ -18,9 +18,11 @@ pip install -r requirements.txt
 
 1. Для запуска mlflow выполнить команды:
 
-```python
+```bash
 cd mlflow_server
 bash run_mlflow_server.sh
 ```
 
 2. Для просмотра результатов экспериментов перейти в MLflow UI по **http://127.0.0.1:5000/** в эксперимент **real_estate_model_alexdem** id_эксперимента: **7**
+
+Код обучения и логирования модели в файле: mlflow_server/baseline_model.ipynb
